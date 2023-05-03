@@ -1,3 +1,3 @@
 # ScoreSaberCLI
-A command-line interface for ScoreSaber.
-Major work in progress. It's not final.
+A command-line interface for ScoreSaber coded in Python.
+Major work in progress. Not final product.
