@@ -56,7 +56,7 @@ def getUser():
             print(f'PP - {score["score"]["pp"]}')
         # didnt work ima use chatgpt
         # I GOT IT HIP HIP HOORAY!
-        input("Press Enter to continue...\n ")
+        input("Press Enter to continue...")
         start()
     elif scoreConfirm == "n":
         print("Returning to main screen...\n")
