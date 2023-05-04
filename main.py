@@ -54,6 +54,7 @@ def getUser():
             print(f'Score - {score["score"]["modifiedScore"]}')
             # we want to use modified score here because what if their top play is overkill DAFS??? HUH????
             print(f'PP (unranked will be 0) - {score["score"]["pp"]}')
+            print("\nReturning to main screen...\n")
         # didnt work ima use chatgpt
         # I GOT IT HIP HIP HOORAY!
         start()
