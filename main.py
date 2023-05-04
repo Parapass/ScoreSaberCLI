@@ -53,10 +53,10 @@ def getUser():
             print(f'Rank - {score["score"]["rank"]}')
             print(f'Score - {score["score"]["modifiedScore"]}')
             # we want to use modified score here because what if their top play is overkill DAFS??? HUH????
-            print(f'PP (unranked will be 0) - {score["score"]["pp"]}')
-            print("\nReturning to main screen...\n")
+            print(f'PP - {score["score"]["pp"]}')
         # didnt work ima use chatgpt
         # I GOT IT HIP HIP HOORAY!
+        input("Press Enter to continue... ")
         start()
     elif scoreConfirm == "n":
         print("Returning to main screen...\n")
