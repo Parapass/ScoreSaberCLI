@@ -9,7 +9,7 @@ def start():
     startReqList = ["1", "2", "3", "4"]
     print("ScoreSaber CLI\nby Parapass\n\nPress Ctrl+C to exit at any time\n\nSelect an option:\n1 - Get User (SteamID)\n2 - Get Map (ScoreSaber Hash)\n3 - Limited Request Library Testing\n4 - Quit Program")
     # this print statement makes me wanna 'sudo rm -rf / --no-preserve-root' myself
-    startReq = input(">>> ")
+    startReq = input(">>> ");
     while startReq not in startReqList:
         print("Invalid text entered, returning...")
         start()
