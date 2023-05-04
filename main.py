@@ -64,9 +64,9 @@ def getUser():
         # rip debug mode we done did kil it :(
 
 def getMap():
-    mapHash = input("Enter ScoreSaber map hash\n>>> ")
-    # i will work on this later but it will never get done. Sorry!
-    print("Error: NotImplemented. Please try again later.\n")
+    leaderboardID = input("Enter ScoreSaber Leaderboard ID (usually a 6 digit number)\n>>> ")
+    mapResponse = requests.get(f"{SCORESABER_API}/leaderboard/by-id/{leaderboardID}/info").json()
+    print(mapResponse)
     start()
 
 def limitedTest():
