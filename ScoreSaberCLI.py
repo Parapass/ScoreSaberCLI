@@ -71,11 +71,6 @@ def getMap():
 
 def limitedTest():
     # just the same code from above but it doenst parse the json!!!
-    steamID = input("Please enter the SteamID of the user you are looking for (You are testing for score output)\n>>> ")
-    response = requests.get(f'{SCORESABER_API}/player/{steamID}/full')
-    response = response.text
-    response = json.loads(response)
-    print(response)
-    start()
+    print("Testing not needed at the moment. Returning to main screen...\n")
 
 start();
